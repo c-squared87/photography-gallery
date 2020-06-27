@@ -1,4 +1,4 @@
-.App {
+/* .App {
   text-align: center;
 }
 
@@ -35,4 +35,90 @@
   to {
     transform: rotate(360deg);
   }
+} */
+
+
+/* VARIABLES*/
+/* :root variables go up here */
+:root {
+  --primary-text: black;
+}
+
+/*RESET*/
+/* This holds the content of what would be a reset.css file */
+* {
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+}
+
+li {
+  list-style-type: none;
+}
+/*BASE STYLES*/
+/* Body,html styles here. */
+/* Broad stroke styling buttons input textures and such */
+
+/*FONTS*/
+/* Font families */
+
+/* H and p tag sizes. */
+
+h1,
+h2,
+h3,
+h4 {
+    color: var(--primary-text);
+    font-weight: normal;
+}
+
+p,
+a,
+li {
+    color: var(--primary-text);
+}
+
+h1,
+h3 {
+    font-size: 1.2em;
+}
+
+h2 {
+    font-size: 1.6em;
+}
+
+h4 {
+    font-size: 1.1.em;
+}
+
+.leading {
+    font-size: 1.1em;
+}
+
+
+/*MOBILE STYLES*/
+
+/* Use this to make the site look good for mobile */
+/* This is a bulk of the styling */
+
+/* SMALL TABLET STYLES  */
+
+@media screen and (min-width: 620px) {}
+
+
+/* LARGE TABLET AND LAPTOP STYLES  */
+
+@media screen and (min-width: 960px) {
+    body {
+        font-size: 18px;
+    }
+}
+
+
+/* DESKTOP STYLES  */
+
+@media screen and (min-width: 1200px) {
+    body {
+        font-size: 20px;
+    }
 }
