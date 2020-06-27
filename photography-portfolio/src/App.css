@@ -136,6 +136,40 @@ h4 {
 /* Use this to make the site look good for mobile */
 /* This is a bulk of the styling */
 
+.header{
+  background-color: darkgrey;
+  position: fixed;
+  top: 0;
+  height: 40px;
+  border-bottom: black 1px solid;
+  width: 100%;
+}
+
+.header-title-tag {
+  display: none;
+}
+
+.header-title-name {
+  font-weight: bold;
+}
+
+.header ul {
+  display: none;
+}
+
+.footer{
+  background-color: darkgrey;
+  position: fixed;
+  bottom: 0;
+  height: 40px;
+  border-top: black 1px solid;
+  width: 100%;
+}
+
+.footer ul{
+  display: none;
+}
+
 .main-page {
   /* border: 5px solid lightgreen; */
 }
@@ -177,7 +211,8 @@ h4 {
 }
 
 .about-page{
-
+  position: relative;
+  top: 40px;
 }
 
 .about-page h1{
