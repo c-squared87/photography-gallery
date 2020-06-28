@@ -21,14 +21,12 @@ function GalleryPage(){
                     <p>caption</p>
                 </div>
                 <div className="gallery-image-queue grid">
-                    <ul className="">
-                        <li className="queue-image">img_1</li>
-                        <li className="queue-image">img_2</li>
-                        <li className="queue-image">img_3</li>
-                        <li className="queue-image">img_4</li>
-                        <li className="queue-image">img_5</li>
-                        <li className="queue-image">img_6</li>
-                    </ul>
+                    <div className="queue-image">IMG 1</div>
+                    <div className="queue-image">IMG 2</div>
+                    <div className="queue-image">IMG 3</div>
+                    <div className="queue-image">IMG 4</div>
+                    <div className="queue-image">IMG 5</div>
+                    <div className="queue-image">IMG 6</div>
                 </div>
             </div>
         </div>
