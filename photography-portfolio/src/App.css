@@ -326,10 +326,19 @@ h4 {
 }
 
 .gallery-image-queue {
-  /* top: 20px; */
+  position: fixed;
+  width: 100%;
+  height: 70%;
   border: 1px solid green;
   grid-column: 2/9;
-  /* overflow-y: auto; */
+  overflow-y: scroll;
+}
+
+.queue-title{
+  grid-column: 2/9;
+  text-align: center;
+  padding: 10px;
+  font-size: 1.8em;
 }
 
 .queue-image{

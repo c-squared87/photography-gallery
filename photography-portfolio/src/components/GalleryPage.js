@@ -1,8 +1,8 @@
 import React from 'react'
 import "../App.css"
 
-function GalleryPage(){
-    return(
+function GalleryPage() {
+    return (
         <div className="gallery-page">
             <div className="gallery-header">
                 {/* add grid to this for bigger sizes? */}
@@ -21,6 +21,7 @@ function GalleryPage(){
                     <p>caption</p>
                 </div>
                 <div className="gallery-image-queue grid">
+                    <div className="queue-title">Performance</div>
                     <div className="queue-image">IMG 1</div>
                     <div className="queue-image">IMG 2</div>
                     <div className="queue-image">IMG 3</div>
