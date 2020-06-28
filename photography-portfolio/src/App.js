@@ -5,13 +5,14 @@ import Footer from './components/Footer'
 import MainPage from './components/MainPage'
 import AboutPage from './components/AboutPage'
 import GalleryPage from './components/GalleryPage'
+import ContactPage from './components/ContactPage'
 
 function App() {
   return (
     <div className="App">
       <Header />
-      <GalleryPage />
-      <Footer /> 
+      <ContactPage />
+      <Footer />
     </div>
   );
 }
