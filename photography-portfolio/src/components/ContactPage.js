@@ -4,7 +4,7 @@ function ContactPage() {
     return (
         <div className="contact-page grid">
 
-            <h1>Contact Me</h1>
+            <h1 className="bold">Contact Me</h1>
             <p>lorem asdf g  asijasdf   gh gfaspdiufas dasfjasd jdsfa jasdf ghoiawfr viweb cdia</p>
 
             <div className="contact-form">

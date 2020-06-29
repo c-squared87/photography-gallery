@@ -7,11 +7,11 @@ function GalleryPage() {
             <div className="gallery-header">
                 {/* add grid to this for bigger sizes? */}
                 <div className="gallery-nav grid">
-                    <h1>Gallery</h1>
+                    <h1 className="bold">Gallery</h1>
                     <ul>
-                        <li>Performance</li>
-                        <li>Travel</li>
-                        <li>Editorial</li>
+                        <li className="italic">Performance</li>
+                        <li className="italic">Travel</li>
+                        <li className="italic">Editorial</li>
                     </ul>
                 </div>
             </div>

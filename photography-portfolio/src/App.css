@@ -60,10 +60,32 @@ li {
 
 /* Body,html styles here. */
 /* Broad stroke styling buttons input textures and such */
+/* Font families */
+@font-face {
+  font-family: "DIN Next W01 Regular";
+   src: url ("/src/fonts/reg/1daa609fdca8da38e5bcbb12c2a987db.svg#DIN Next W01 Regular") format("svg"),
+   url("fonts/reg/1daa609fdca8da38e5bcbb12c2a987db.ttf") format("truetype");  
+}
 
+@font-face {
+  font-family: "DIN Next W01 Bold";
+  src:url("fonts/bold/78c77b16334d415ac17d5a812345a0a1.ttf") format("truetype"), /* chrome、firefox、opera、Safari, Android, iOS 4.2+*/
+		  url("fonts/bold/78c77b16334d415ac17d5a812345a0a1.svg#DIN Next W01 Bold") format("svg"); /* iOS 4.1- */
+}
+
+@font-face {
+  font-family: "DIN Next W01 Italic";
+  src: url("fonts/ita/8ee5f66b74eb10499d7e328f537bda97.eot"); /* IE9*/
+  src: url("fonts/ita/8ee5f66b74eb10499d7e328f537bda97.eot?#iefix") format("embedded-opentype"), /* IE6-IE8 */
+  url("fonts/ita/8ee5f66b74eb10499d7e328f537bda97.woff2") format("woff2"), /* chrome、firefox */
+  url("fonts/ita/8ee5f66b74eb10499d7e328f537bda97.woff") format("woff"), /* chrome、firefox */
+  url("fonts/ita/8ee5f66b74eb10499d7e328f537bda97.ttf") format("truetype"), /* chrome、firefox、opera、Safari, Android, iOS 4.2+*/
+  url("fonts/ita/8ee5f66b74eb10499d7e328f537bda97.svg#DIN Next W01 Italic") format("svg"); /* iOS 4.1- */
+}
+html,
 body {
+  font-family: "DIN Next W01 Regular";
   overflow-x: hidden;
-  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
 .grid {
@@ -98,20 +120,28 @@ textarea {
 
 
 /*FONTS*/
-/* Font families */
+
+
+.bold {
+  font-family: "DIN Next W01 Bold";
+}
+.italic{
+  font-family: "DIN Next W01 Italic";
+}
 
 h1,
 h2,
 h3,
 h4 {
   color: var(--primary-text);
-  font-weight: normal;
+  font-family: "DIN Next W01 Regular";
 }
 
 p,
 a,
 li {
   color: var(--primary-text);
+  font-family: "DIN Next W01 Regular", sans-serif;
 }
 
 h1 {
@@ -368,15 +398,14 @@ h4 {
   font-size: 2.2em;
   font-weight: bold;
   text-align: center;
-  width: 65%;
+  /* width: 75%; */
   padding: 24px 0;
-  border-bottom: 1px solid black;
 }
 
 .contact-page p{
   grid-row: 2;
   grid-column: 2/9;
-  padding: 30px 0;
+  padding: 20px 0;
 }
 
 .contact-form {
@@ -420,6 +449,11 @@ h4 {
   body {
     font-size: 18px;
   }
+
+
+.main-page-menu{
+  display: block;
+}
 }
 
 
