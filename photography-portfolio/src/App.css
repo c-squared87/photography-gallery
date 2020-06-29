@@ -134,7 +134,7 @@ h2,
 h3,
 h4 {
   color: var(--primary-text);
-  font-family: "DIN Next W01 Regular";
+  font-family: "DIN Next W01 Bold";
 }
 
 p,
@@ -436,6 +436,72 @@ h4 {
   left: 35%;
 }
 
+/* PRINTS PAGE  */
+
+.prints-page {
+  margin-top: 40px;
+  margin-bottom: 40px;
+  position: relative;
+}
+
+.prints-page h1 {
+  padding: 20px 10px 5px 30px;
+  font-size: 2.2em;
+}
+
+.prints-page .content{
+  position: relative;
+  margin-left: 30px;
+  margin-right: 30px;
+  /* width: 100%; */
+  padding-bottom: 20px;
+  border-bottom: solid 1px black;
+}
+
+/* PRINT CARD  */
+
+.print-card {
+  margin: 30px 30px 10px 30px;
+  text-align: center;
+}
+
+.print-card-image{
+  margin: 0 auto;
+  height: 200px;
+  background-color: yellow;
+}
+
+.print-card-options{
+  border: 1px solid black;
+  width: 70%;
+  margin: 20px auto;
+  padding: 10px;
+}
+
+.print-card-options h2{
+  font-family: "DIN Next W01 Italic";
+  padding: 3px;
+}
+
+.print-card-options p{
+  padding: 3px;
+}
+
+.print-card-options label{
+  display: block;
+  font-size: 0.8em;
+  margin-top: 10px;
+  font-family: "DIN Next W01 Bold";
+}
+
+.print-card-options button{
+  display: block;
+  margin: 10px auto;
+  background: none;
+  border: 1px solid black;
+  border-radius: 2px;
+  padding: 2px;
+}
 
 
 /* SMALL TABLET STYLES  */
