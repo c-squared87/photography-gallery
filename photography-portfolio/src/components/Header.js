@@ -1,8 +1,8 @@
 import React from 'react'
 import "../App.css"
 
-function Header(){
-    return(
+function Header() {
+    return (
         <div className="header">
             <div className="header-title">
                 <div className="header-title-tag">The Photography of</div>
