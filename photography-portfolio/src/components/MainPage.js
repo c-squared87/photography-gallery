@@ -1,5 +1,6 @@
 import React from "react"
 import '../App.css'
+import { Link } from 'react-router-dom'
 
 function MainPage() {
     return (
@@ -16,7 +17,7 @@ function MainPage() {
                     <li className="italic">Contact</li>
                 </ul>
             </div>
-            <button className="main-load-button">\/</button>
+            <Link to="/about"><button className="main-load-button">\/</button></Link>
         </div>
     )
 }
