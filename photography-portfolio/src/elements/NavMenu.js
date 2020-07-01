@@ -14,7 +14,7 @@ const NavMenu = () => {
         <Router>
             <nav>
                 <ul>
-                    <li><Link to="/">Home</Link></li>
+                    {/* <li><Link to="/">Home</Link></li> */}
                     <li><Link to="/about">About</Link></li>
                     <li><Link to="/gallery">Gallery</Link></li>
                     <li><Link to="/prints">Prints</Link></li>
@@ -22,7 +22,7 @@ const NavMenu = () => {
                 </ul>
             </nav>
             <Switch>
-                <Route path="/" exact component={MainPage} />
+                {/* <Route path="/" exact component={MainPage} /> */}
                 <Route path="/gallery" component={GalleryPage} />
                 <Route path='/about' component={AboutPage} />
                 <Route path='/contact' component={ContactPage} />

@@ -56,6 +56,10 @@ li {
   list-style-type: none;
 }
 
+img {
+  display: block;
+}
+
 /*BASE STYLES*/
 
 /* Body,html styles here. */
@@ -247,7 +251,7 @@ nav ul{
 
 .about-page{
   position: relative;
-  top: 40px;
+  top: 10px;
 }
 
 .about-page h1 {
@@ -267,7 +271,9 @@ nav ul{
 .about-page-image {
   grid-row: 2;
   grid-column: 2/9;
-  background-color: yellow;
+  /* background-color: yellow; */
+  background-image: url('./images/craig_self.JPG');
+  background-size: contain;
   border: 1px solid black;
   position: relative;
   margin-top: 20px;
@@ -281,17 +287,22 @@ nav ul{
   padding-top: 30px;
 }
 
-.about-page button {
+.about-page a {
   grid-row: 4;
-  grid-column: 3/8;
+  grid-column: 4/7;
   margin-top: 30px;
+  text-align: center;
+}
+
+.about-page button{
   border: none;
   background: none;
   font-size: 1.2em;
-  font-style: italic;
-  font-weight: bold;
+  font-family: "DIN Next W01 Italic";
 }
-.about-page button:nth-child(even) {
+
+
+.about-page a:nth-child(odd) {
   grid-row: 5;
   grid-column: 3/8;
   margin-top: 10px;
@@ -372,11 +383,15 @@ nav ul{
 .queue-image{
   grid-column: 2/9;
   border: 1px solid black;
-  background-color: lightyellow;
-  width: 100%;
-  height: 100px;
+  background-image:none ;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  /* background-color: lightyellow; */
+  /* width: 100%; */
+  /* height: auto; */
   margin: 10px 0;
-  text-align: center;
+  /* text-align: center; */
 }
 
 /* CONTACT PAGE  */
