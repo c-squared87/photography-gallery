@@ -1,11 +1,16 @@
 import React from 'react'
 import "../App.css"
+
+// import { BrowserRouter as Router, Route, Link, Switch } from 'react-router-dom'
+// import PerformanceGallery from '../elements/PerformanceGallery'
+// import TravelGallery from '../elements/TravelGallery'
+
 import ImageQueue from '../elements/ImageQueue'
 
 function GalleryPage() {
     return (
         <div className="gallery-page">
-            <div className="gallery-header">
+            <div className="gallery-header" style={{ backgroundImage: "url(" + ")" }}>
                 <div className="gallery-nav grid">
                     <h1 className="bold">Gallery</h1>
                     <ul>
@@ -15,12 +20,11 @@ function GalleryPage() {
                     </ul>
                 </div>
             </div>
-
             <div className="gallery-gallery grid">
                 <div className="gallery-active-image">
                     <p>caption</p>
                 </div>
-                <ImageQueue title='Travel' />
+                <ImageQueue />
             </div>
         </div>
     )

@@ -22,7 +22,7 @@ const NavMenu = () => {
                 </ul>
             </nav>
             <Switch>
-                {/* <Route path="/" exact component={MainPage} /> */}
+                <Route path="/" exact component={MainPage} />
                 <Route path="/gallery" component={GalleryPage} />
                 <Route path='/about' component={AboutPage} />
                 <Route path='/contact' component={ContactPage} />

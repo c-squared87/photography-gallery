@@ -1,13 +1,15 @@
 import React from 'react'
 import '../App.css'
 
-class GalleryImage extends React.Component {
-
-
-    render() {
-        var _string = "url(" + this.props.image + ")"
-        return <div className="queue-image" style={{ backgroundImage: _string }}> </div>
-    }
+function GalleryImage(props) {
+    var _string = "url(" + props.image + ")"
+    console.log(_string)
+    return (
+        <div className="queue-image" style={{}}>
+            <p>{props.caption}</p>
+            <img src={'/public/images/perf/T81A3588.jpg'} alt={_string}></img>
+        </div >
+    )
 }
 
 export default GalleryImage 
